@@ -90,8 +90,8 @@
         "[+25]% [Gold] [in all cities] <after adopting [State]>",
             "[+3 Production, +3 Food] from each Trade Route",
             "[+50]% Production when constructing [Standard G.E.C.K.] units [in all cities]",
-			"[-25]% maintenance on road & railroads <after adopting [Bureaucracy]>",
-			"[-25]% maintenance costs <for [Military] units> <after adopting [Bureaucracy]>",
+			"[-50]% maintenance on road & railroads <after adopting [Bureaucracy]>",
+			"[-50]% maintenance costs <for [Military] units> <after adopting [Bureaucracy]>",
 			"[-25]% Culture cost of natural border growth [in all cities]"
         ],
     "cities": [
@@ -169,7 +169,7 @@
     "uniques": [
             "All newly-trained [Land] units [in all cities] receive the [Ghoul] promotion",
             "[+1 Food] from [Fallout] tiles [in all cities]",
-            "[-25]% growth [in all cities]",
+            "[-40]% growth [in all cities]",
             "Free [The Ghoul] appears <upon discovering [Ballistic Weaponry] technology>"
         ],
     "cities": [

@@ -71,6 +71,25 @@
 }, 
 
 // Reconstruction era
+{
+		"name": "Library",
+		"happiness": 2,
+		"maintenance": 2,
+		"requiredResource": "Pre-war Books",
+		"greatPersonPoints": {"Great Scientist": 1, "Great Artist": 1},
+		"uniques": ["Only available <after adopting [Education]>",
+		"[+1 Science, +1 Culture] per [4] population [in this city]"]
+	},
+{
+    "name": "Printer",
+    "maintenance": 2,
+	"production": 2,
+	"percentStatBonus": {"production": 10},
+    "requiredTech": "Writing",
+    "uniques": [
+		"[+1 Gold] from [Lumber mill] tiles [in this city]"
+    ]
+},
 			{
 		"name": "Herbal Clinic",
 		"science": 1,
@@ -512,9 +531,23 @@
     "uniques": [
 		"Only available <after adopting [State]>",
 		"Can only be built <in [Capital] cities>",
-        "Only available <if [Foundry] is constructed in all [non-[Puppeted]] cities>", 
+        "Only available <if [Printer] is constructed in all [non-[Puppeted]] cities>", 
 		"[+50]% [Gold] from Trade Routes",
 		"Cost increases by [30] per owned city"
+    ]
+},
+
+// Ghouls
+
+	{
+    "name": "Ghouls' Cemetery",
+	"happiness": 2,
+	"culture": 4,
+    "cost": 100,
+    "uniques": [
+		"Only available <after adopting [Survivalism Complete]>",
+		"[+10]% growth [in all cities]",
+		"[+1] population [in this city]"
     ]
 }
 ]

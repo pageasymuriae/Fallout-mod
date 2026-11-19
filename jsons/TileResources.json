@@ -299,6 +299,7 @@
 		"terrainsCanBeFoundOn": ["Jungle", "Forest", "Fallout", "Desert", "Grassland", "Plains"],
 		"science": 2,
 		"culture": 2,
+		"revealedBy": "Writing",
 		"improvedBy": ["Collection site"],
 		"improvementStats": { "science": 2, "culture": 2 },
 		"uniques": [

@@ -87,7 +87,7 @@
 			{
 		"name": "Scrap Cannon",
 		"unitType": "Siege",
-		"movement": 1,
+		"movement": 2,
 		"strength": 8,
 		"rangedStrength": 4,
 		"upgradesTo": "Cannon",
@@ -398,13 +398,12 @@
 		"name": "The Ghoul",
 		"unitType": "Ballistic",
 		"uniqueTo": "Ghouls",
-		"requiredTech": "Ballistic Weaponry",
 		"movement": 2,
 		"strength": 15,
 		"rangedStrength": 15,
 		"hurryCostModifier": 20,
-		"uniques": ["[+200] HP when healing", "[-200]% Strength <vs cities>", "[+100]% Strength <vs [Power Armor] units>", "Unbuildable"],
-		"promotions": ["Sentry", "Extended Range", "Blitz"],
+		"uniques": ["[+175] HP when healing", "Withdraws before melee combat <with [50]% chance>", "[-200]% Strength <vs cities> <when attacking>", "[+100]% Strength <vs [Power Armor] units> <when attacking>", "No Movement Cost to Pillage", "Unbuildable"],
+		"promotions": ["Sentry", "Extended Range", "Blitz", "Ghoul"],
 		"attackSound": "shot"
 	}
 ]

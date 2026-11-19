@@ -21,7 +21,8 @@
 		"turnsToBuild": 40,
 		"uniques": [
 			"Turn this tile into a [Forest] tile"
-		]
+		],
+		"shortcutKey": "F"
 	},
 			{
 		"name": "Cultivate Jungle",
@@ -30,7 +31,8 @@
 		"turnsToBuild": 40,
 		"uniques": [
 			"Turn this tile into a [Jungle] tile"
-		]
+		],
+		"shortcutKey": "J"
 	},
 
 	// Resource-specific
@@ -111,7 +113,7 @@
 	{
 		"name": "Road",
 		"terrainsCanBeBuiltOn": ["Forest", "Coast", "Grassland", "Hill", "Jungle", "Plains", "Tundra", "Snow"],
-		"turnsToBuild": 6,
+		"turnsToBuild": 7,
 		"techRequired": "Roads",
 		"uniques": ["Can be built outside your borders", "Costs [1] [Gold] per turn"],
 		"shortcutKey": "R",

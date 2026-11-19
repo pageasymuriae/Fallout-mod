@@ -38,7 +38,7 @@
         "dealDuration": 30,
         "startYear": 2078,
         "turns": [
-            {"yearsPerTurn": 1, "untilTurn":  1000}
+            {"yearsPerTurn": 0.5, "untilTurn":  1000}
         ]
     },
     {
@@ -59,7 +59,7 @@
         "dealDuration": 45,
         "startYear": 2078,
         "turns": [
-            {"yearsPerTurn": 0.5, "untilTurn":  1500}
+            {"yearsPerTurn": 0.25, "untilTurn":  1500}
         ]
     },
     {
@@ -80,7 +80,7 @@
         "dealDuration": 90,
         "startYear": 2078,
         "turns": [
-            {"yearsPerTurn": 0.2, "untilTurn":  1500}
+            {"yearsPerTurn": 0.1, "untilTurn":  1500}
         ]
     }
 ]
