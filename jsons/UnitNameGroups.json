@@ -1,0 +1,109 @@
+[
+    {
+        "name": "General",
+        "unitNames": ["Ahuitzotl", "Akbar", "Albrecht von Wallenstein", "Arminius", "Belisarius", "Bernard Montgomery", "Cao Cao", "Chandragupta Maurya", "Charles Martel", "El Cid", "Epaminondas", "Erwin Rommel", "Eugene of Savoy", "Francisco Pizarro", "Gaius Marius", "George Patton", "Georgy Zhukov", "Geronimo", "Hamilcar Barca", "Hannibal Barca", "Heinz Guderian", "Hernan Cortez", "Ivan the Terrible", "Jeanne d'Arc", "Johann Tserclaes", "Khaled ibn al-Walid", "Leonidas", "Lysander", "Maurice of Nassau", "Oliver Cromwell", "Pompey", "Pyrrhus", "Robert E. Lee", "Sargon", "Scipio Africanus", "Sitting Bull", "Spartacus", "Subutai", "Sun Tzu", "Timur", "Vercingetorix", "William the Conqueror", "Winfield Scott", "Zhuge Liang"]
+    },
+    {
+        "name": "Artist",
+        "unitNames": ["Adrien Carpentiers", "Alphonse-Marie-Adolphe de Neuville", "Amedeo Modigliani", "Amir Khusro", "Ansel Adams", "Antonello da Messina", "Antoni Gaudi", "Antonín Dvořák", "Arthur Conan Doyle", "Asher Brown Durand", "August Haake", "Bahram Kirmanshahi", "Bartolomé de las Casas", "Bartholomeus Spranger", "Bernardo Martorell", "Caravaggio", "Caspar David Friedrich", "Claude Monet", "Dante Alighieri", "Du Fu", "Duke Ellington", "Edgar Degas", "Edmund Leighton", "Edouard Manet", "El Greco", "Emanuel Leutze", "Ernest Hemingway", "Eugène Delacroix", "Francisco de Goya", "Francisco de Zurbaran", "Francesco Hayez", "Frederic Remington", "Frank Kafka", "Frans Post", "Friedensreich Hundertwasser", "George Gower", "George P. A. Healy", "George Seurat", "Gilbert Stuart", "Giovanni Bellini", "Giotto di Bondone", "Giuseppe Arcimboldo", "Grant DeVolson Wood", "Gustav Klimt", "Gustave Caillebotte", "Hans Holbein the Younger", "Huang Gongwang", "Henri de Toulouse-Lautrec", "Henri Rousseau", "Hiranand", "Horace Vernet", "Ibn Muqlah", "Ilya Repin", "Jacques-Louis David", "James Abbott McNeill Whistler", "Jan van Eyck", "Jan Vermeer", "Jean Clouet", "Jean Honore Fragonard", "Jean Fouquet", "Jiao Bingzhen", "Johann Friedrich von Schiller", "Johann Sebastian Bach", "Johann Wolfgang von Goethe", "Johannes Brahms", "Joseph Conrad", "József Borsos", "Homer", "Kālidāsa", "Kamaleddin Behzad", "Kano Masanobu", "Karl Briullov", "Katsushika Hokusai", "Leonardo da Vinci", "Leo Tolstoy", "Li Po", "Ling Lun", "Louis Armstrong", "Ludwig van Beethoven", "Leo Tolstoy", "Mark Twain", "Martin Johnson Heade", "Mary Cassatt", "Michelangelo Buonarroti", "Miguel de Cervantes", "Miles Davis", "Omar Khayyám", "Pablo Neruda", "Pablo Picasso", "Paul Cezanne", "Paul Delaroche", "Paul Gauguin", "Paolo Uccello", "Peter Paul Rubens", "Petrus Christus", "Pierre-Auguste Renoir", "Pieter Bruegel (the Younger)", "Pieter Bruegel the Elder", "Qian Xuan", "Qiu Ying", "Raffaello Sanzio", "Raja Ravi Varma", "Rembrandt van Rijn", "Jalal al-Din Muhammad Rumi", "Salvador Dali", "Samuel F. B. Morse", "Sandro Botticelli", "Sergey Vasilyevich Ivanov", "Stanley Kubrick", "Sultan Muhammad", "Thespis", "Thomas Gainsborough", "Tintoretto", "Titian", "Torajiro Kasai", "Toyokuni Utagawa", "Utagawa Hiroshige", "Utagawa Kuniyoshi", "Valmiki", "Victor Hugo", "Viktor M. Vasnetsov", "Vincent van Gogh", "Virgil", "Wang Ximeng", "Wang Xizhi", "Willem van de Velde the Younger", "William Butler Yeats", "William Bouguereau", "William Shakespeare", "William Simpson", "Winslow Homer", "Wolfgang Amadeus Mozart", "Yan Liben", "Yanagawa Shigenobu", "Yunus Emre", "Zhang Zeduan"]
+    },
+    {
+        "name": "Merchant",
+        "unitNames": ["Aretas III", "Andrew Carnegie", "Coco Chanel", "Marcus Licinius Crassus", "Enrico Dandolo", "Anthony van Diemen", "Jakob Fugger", "Harkuf", "Edward Harriman", "Milton S. Hershey", "Ibn Battuta", "Steve Jobs", "John Maynard Keynes", "Sir James Lancaster", "Sir Alexander Mackenzie", "Giovanni de Medici", "John Stuart Mill", "Henri Nestlé", "Marco Polo", "John D. Rockefeller", "Sir Thomas Roe", "Shah Jahan", "Adam Smith", "Levi Strauss", "Raja Todar Mal", "Thomas Twining", "Cornelius Vanderbilt", "Richard Whittington", "Wang Anshi", "Zhang Qian"]
+    },
+    { 
+        "name": "Engineer",
+        "unitNames": ["Archimedes", "Alexander Graham Bell", "Isambard Kingdom Brunel", "Karl Benz", "Henry Bessemer", "Bi Sheng", "Cai Lun", "Charles Augustin de Coulomb", "Louis Daguerre", "Gottlieb Daimler", "Charles Stark Draper", "George Eastman", "Thomas Edison", "Alexandre Gustave Eiffel", "Henry Ford", "Benjamin Franklin", "Robert Goddard", "George Washington Goethals", "Heron", "Imhotep", "Joseph Marie Jacquard", "Ferdinand de Lesseps", "Guglielmo Marconi", "William Morton", "Nikolaus August Otto", "Blaise Pascal", "Norbert Rillieux", "John Roebling", "Wilhelm Schickard", "Mimar Sinan", "Nain Singh", "Nikola Tesla", "James Watt", "Frank Lloyd Wright", "Orville Wright", "Wilbur Wright", "Zhang Heng"]
+    },
+{
+    "name": "Scientist",
+    "unitNames": [
+        "Stanislaus Braun",
+        "Dr. Klein",
+        "Dr. Mobius",
+        "Dr. Borous",
+        "Dr. Dala",
+        "Dr. 0",
+        "Dr. 8",
+        "Dr. Madison Li",
+        "Dr. Brian Virgil",
+        "Dr. Clayton Holdren",
+        "Alan Binet",
+        "Dr. Allie Filmore",
+        "Dr. Justin Ayo",
+        "Dr. Zimmer",
+        "Dr. Edgar Blackburn",
+        "Dr. Weston Lesko",
+        "Dr. Siggi Wilzig",
+        "Dr. Charles Curling",
+        "Dr. Grant",
+        "Dr. Henry",
+        "Dr. Schreber",
+        "Dr. Whitley",
+        "Dr. Hildern"
+    ]
+},
+        {
+        "name": "Scribe",
+        "unitNames": ["Lars Taggart", "Linda Schuler", "Ibsen", "Veronica Santangelo", "Melissa Watkins", "Christine Royce", "Edgar Hardin", "Elijah"]
+    },
+        {
+        "name": "Caesar",
+        "unitNames": ["Aurelius of Phoenix", "Gaius Magnus", "Silus", "Lucius", "Vulpes Inculta", "Joshuam Graham", "Legate Lanius"]
+    },
+{
+    "name": "Knight",
+    "unitNames": [
+        "Michael",
+        "Paul",
+        "Larry",
+        "Anthony",
+        "Kyle",
+        "Jacob",
+        "Colvin",
+        "Durga",
+        "Gallows",
+        "Dusk",
+        "Wilks",
+        "Casserly",
+        "Artoro",
+        "Ianelli",
+        "Conard",
+        "Patriarcus",
+        "Artemis",
+        "Church",
+        "Dillon",
+        "Finley",
+        "Torres",
+        "Lorenzo",
+        "Cade",
+        "Gavil",
+        "Merric",
+        "Tara Astlin",
+        "Varham",
+        "Keane",
+        "Lucia",
+        "Maria Harper",
+        "Rhys",
+        "Rylan",
+        "Wagner",
+        "Esposito",
+        "Johnny Moreno",
+        "Kaede Ito",
+        "Reische",
+        "Tex Rogers",
+        "Matthew Thornberry",
+        "Alan Connors",
+        "Daniel Shin",
+        "Ted Wilson",
+        "Maximus",
+        "Titus",
+        "Gnatius",
+        "Riley"
+    ]
+},
+    {
+        "name": "Prophet",
+        "unitNames": [] // The original has no Prophet names, but we leave it here to enable mod support
+    }
+]

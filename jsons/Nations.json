@@ -12,7 +12,7 @@
 		
 {
     "name": "Brotherhood of Steel",
-    "leaderName": "Arthur Maxson",
+    "leaderName": "Roger Maxson",
     "adjective": [
         "Brotherhood"
     ],
@@ -20,11 +20,13 @@
         "Mountain"
     ],
     "preferredVictoryType": "Domination",
+"startIntroPart1": "May the Brotherhood's steel guide you, Captain Roger Maxson! Once an officer of the United States Army, you were stationed at Mariposa Military Base, where the government conducted its secret experiments with the Forced Evolutionary Virus. Upon discovering the horrific experiments performed on human prisoners, you turned against the government and declared your secession from the US Army. But the Great War soon consumed the world, leaving civilization in ruins. Leading your soldiers and their families through the devastated wasteland, you reached the Lost Hills bunker, where you established a new order: the Brotherhood of Steel.",
+"startIntroPart2": "You must explore the wasteland and recover pre-war weapons from the army, ensuring that no one else uses them for evil. Kill people... if necessary.",
     "declaringWar": "You have mistaken our restraint for weakness. The Brotherhood will not tolerate your threat.",
-    "attacked": "You dare challenge the Brotherhood of Steel? Prepare to face the full force of our arsenal!",
+    "attacked": "You dare challenge the Brotherhood of Steel? Fool.",
     "defeated": "Our chapter may fall, but the Brotherhood will endure. Our knowledge and our mission must survive.",
-    "introduction": "I am Elder Arthur Maxson, leader of the Brotherhood of Steel. We preserve the technology of the old world and ensure that its power does not fall into the wrong hands.",
-    "neutralHello": "State your business. The Brotherhood has little time for idle conversation.",
+    "introduction": "I am Elder Roger Maxson, leader of the Brotherhood of Steel. We preserve the technology of the old world and ensure that its power does not fall into the wrong hands.",
+    "neutralHello": "Hello, ma boy. Do you have any weapons for me?",
     "hateHello": "You are a threat to the preservation of humanity. Do not test our patience.",
     "tradeRequest": "The Brotherhood is willing to negotiate. Technology and resources can serve both our interests.",
 "outerColor": [
@@ -38,7 +40,7 @@
         3
     ],
 	"uniques": [
-            "[Great Scientist] is earned [50]% faster <when at war>",
+            "[Scientist] is earned [50]% faster <when at war>",
             "[-100]% Production when constructing [Military] units [in all cities]",
             "[+100]% Production when constructing [Power Armor] units [in all cities]",
 			"[+100]% XP gained from combat <for [Military] units>",
@@ -61,7 +63,7 @@
 },
 {
     "name": "New California Republic",
-    "leaderName": "Aaron Kimball",
+    "leaderName": "Aradesh",
     "uniqueName": "Manifest Destiny",
     "adjective": [
         "NCR"
@@ -70,12 +72,12 @@
         "Desert"
     ],
     "preferredVictoryType": "Domination",
-    "declaringWar": "The New California Republic will not tolerate threats to democracy and order. Bear our flag, or face our army.",
-    "attacked": "You are making a grave mistake. The NCR military will mobilize with the full force of the Republic behind us!",
+    "declaringWar": "We will bring democracy to your country!",
+    "attacked": "Fuck you!",
     "defeated": "The Republic may have lost this battle, but the ideals of liberty and law will outlive this war.",
-    "introduction": "Greetings. I am President Aaron Kimball of the New California Republic. We bring law, democracy, and civilization back to the wasteland.",
-    "neutralHello": "Welcome. State your business with the Republic. We have a nation to build.",
-    "hateHello": "You are a obstacle to expansion and rule of law. Tread carefully around NCR territory.",
+    "introduction": "Greetings. I am Aradesh of the New California Republic. We bring law, democracy and civilization back to the wasteland.",
+    "neutralHello": "Welcome.",
+    "hateHello": "You are a obstacle to expansion and rule of law.",
     "tradeRequest": "Fair trade benefits the Republic and its allies. Let us see if we can reach an agreement.",
     "outerColor": [
         230,
@@ -112,7 +114,7 @@
 },
 {
     "name": "Legion",
-    "leaderName": "Caesar",
+    "leaderName": "Edward Sallow",
     "uniqueName": "Cult of Mars",
     "adjective": [
         "Legion"
@@ -121,8 +123,8 @@
         "Mountain"
     ],
     "preferredVictoryType": "Domination",
-    "declaringWar": "The weak must yield to the strong. The Bull will trample everything in its path, starting with you.",
-    "attacked": "Foolish profligate! You have brought the wrath of Caesar upon your own heads.",
+    "declaringWar": "The weak must yield to the strong. The Bull will trample everything in its path... starting with you.",
+    "attacked": "Foolish profligate! I will impale you and your entire population!",
     "defeated": "The Son of Mars falls... but the Legion is an idea born of blood, and it will never die.",
     "introduction": "I am Caesar, leader of the Legion. Under my command, the tribes of the wasteland are forged into an unbreakable empire.",
     "neutralHello": "Speak quickly, profligate. Legion values strength and action, not empty words.",
@@ -164,11 +166,11 @@
     ],
     "preferredVictoryType": "Domination",
     "declaringWar": "You deserve our hate!",
-    "attacked": "You bastard!",
+    "attacked": "Fuck you!",
     "defeated": "So are we... are we finally dead?",
     "introduction": "We are the survivors of Vault 12. Who are you?",
     "neutralHello": "Hey, fella!",
-    "hateHello": "You deserve hell.",
+    "hateHello": "Fuck you!",
     "tradeRequest": "We should make commerce.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255, 0, 0],
@@ -197,9 +199,12 @@
         "leaderName": "Robert House",
         "startBias": ["Desert"],
         "uniqueName": "The House always wins!",
-        "declaringWar": "You leave us no choice. War it must be.",
-        "attacked": "Two men enter, one man leaves!",
-        "defeated": "You run Bartertown.",
+    "declaringWar": "I'm attacking you for profit, don't take it personally.",
+    "attacked": "Eventually, I will win. You know that.",
+    "defeated": "Why have you... done this?... centuries of preparation... so much good, undone...",
+    "introduction": "So, we meet in person finally... so to speak.",
+    "neutralHello": "Hey, fella!",
+    "hateHello": "I don't think you deserve my attention.",
         "outerColor": [125, 0, 125],
         "innerColor": [255, 242, 0],
 		"uniques": [

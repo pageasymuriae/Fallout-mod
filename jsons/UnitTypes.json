@@ -19,7 +19,7 @@
     {
         "name": "Power Armor",
         "movementType": "Land",
-        "uniques": ["Costs [1] [Fusion Core]", "[+200]% maintenance costs"]
+        "uniques": ["Costs [1] [Fusion Core]", "[+200]% maintenance costs", "[This Unit] gets a name from the [Knight] group"]
     },
     {
         "name": "Siege",

@@ -1,0 +1,134 @@
+[ 
+{
+    "name": "Roger Maxson",
+    "production": 8,
+    "food": 4,
+    "gold": 4,
+    "science": 8,
+    "culture": 4,
+    "happiness": 6,
+    "faith": 6,
+    "military": 8,
+    "aggressive": 8,
+    "declareWar": 8,
+    "commerce": 4,
+    "diplomacy": 4,
+    "loyal": 4,
+    "expansion": 6,
+    "denounceWillingness": 4,
+    "priorities": {
+        "Survivalism": 7,
+        "State": 8,
+        "Pragmatism": 4,
+        "Democracy": 1,
+        "Autocracy": 1,
+        "Technocracy": 9,
+        "Capitalism": 5,
+        "Communism": 5
+    },
+    "civilopediaText": [
+    {
+        "text": "The pre-war USA Army captain who declared secession and broke away from the government just before the Nuclear War. After the war, he took refuge in Bunker Hills and founded the Brotherhood of Steel."
+    }
+]
+},
+{
+    "name": "Aradesh",
+    "production": 6,
+    "food": 8,
+    "gold": 8,
+    "science": 6,
+    "culture": 6,
+    "happiness": 8,
+    "faith": 4,
+    "military": 6,
+    "aggressive": 2,
+    "declareWar": 2,
+    "commerce": 6,
+    "diplomacy": 10,
+    "loyal": 8,
+    "expansion": 10,
+    "denounceWillingness": 4,
+    "priorities": {
+        "Survivalism": 8,
+        "State": 10,
+        "Pragmatism": 4,
+        "Democracy": 10,
+        "Autocracy": 4,
+        "Technocracy": 4,
+        "Capitalism": 8,
+        "Communism": 6
+    },
+        "civilopediaText": [
+    {
+        "text": "First president of NCR. A descendant of Vault 15 residents, he left the shelter after its opening and the division of its inhabitants. Using a G.E.C.K. kit, he founded the agricultural community of Shady Sands."
+    }
+]
+},
+{
+    "name": "Edward Sallow",
+    "production": 8,
+    "food": 4,
+    "gold": 6,
+    "science": 4,
+    "culture": 4,
+    "happiness": 4,
+    "faith": 8,
+    "military": 10,
+    "aggressive": 10,
+    "declareWar": 10,
+    "commerce": 4,
+    "diplomacy": 4,
+    "loyal": 0,
+    "expansion": 10,
+    "denounceWillingness": 0,
+    "priorities": {
+        "Survivalism": 8,
+        "State": 8,
+        "Pragmatism": 8,
+        "Democracy": 1,
+        "Autocracy": 10,
+        "Technocracy": 1,
+        "Capitalism": 5,
+        "Communism": 5
+    },
+    "civilopediaText": [
+    {
+        "text": "The Caesar, the founder of The Legion."
+    }
+]
+},
+{
+    "name": "Set",
+    "production": 6,
+    "food": 10,
+    "gold": 6,
+    "science": 6,
+    "culture": 6,
+    "happiness": 10,
+    "faith": 4,
+    "military": 4,
+    "aggressive": 2,
+    "declareWar": 2,
+    "commerce": 6,
+    "diplomacy": 10,
+    "loyal": 10,
+    "expansion": 6,
+    "denounceWillingness": 10,
+    "priorities": {
+        "Survivalism": 10,
+        "State": 10,
+        "Pragmatism": 6,
+        "Democracy": 8,
+        "Autocracy": 1,
+        "Technocracy": 1,
+        "Capitalism": 4,
+        "Communism": 7
+    },
+    "civilopediaText": [
+    {
+        "text": "The founder of Necropolis and leader of the Ghouls."
+    }
+]
+}
+]

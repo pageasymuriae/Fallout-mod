@@ -92,17 +92,5 @@
             "Only available <after turn number [20]>"
         ],
         "color": "#CDDDF4"
-    },
-    {
-        "name": "an ancient prophecy",
-        "notification": "We have found an ancient prophecy in the ruins, greatly increasing our spiritual connection! (+[faithAmount] Faith)",
-        "uniques": [
-            "Only available <when religion is enabled>",
-            "Gain enough Faith for [33]% of a Great Prophet",
-            "Unavailable <after generating a Great Prophet>",
-            "Only available <after founding a Pantheon>",
-            "Only available <after turn number [20]>"
-        ],
-        "color": "#CDDDF4"
     }
 ]
