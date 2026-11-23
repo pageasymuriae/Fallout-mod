@@ -357,7 +357,7 @@
 		"uniqueTo": "Brotherhood of Steel",
 		"replaces": "Great Scientist",
 		"uniques": [
-			"Instantly gain [1] [Fusion Core] <by consuming this unit>",
+			"Instantly gain [2] [Fusion Core] <by consuming this unit>",
 			"Can hurry technology research",
             "Can instantly construct a [Academy] improvement <by consuming this unit>",
             "Great Person - [Science]", "Unbuildable", "Uncapturable"],

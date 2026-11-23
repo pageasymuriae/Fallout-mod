@@ -78,7 +78,7 @@
 		"requiredTech": "Writing",
 		"requiredResource": "Pre-war Books",
 		"greatPersonPoints": {"Great Scientist": 1, "Great Artist": 1},
-		"uniques": ["Only available <after adopting [Education]>",
+		"uniques": ["Only available <after adopting [Public Services]>",
 		"[+1 Science, +1 Culture] per [4] population [in this city]"]
 	},
 {
@@ -143,7 +143,7 @@
 		"greatPersonPoints": {"Great Scientist": 1, "Prime G.E.C.K.": 1},
 		"maintenance": 2,
 		"uniques": [
-			"Only available <after adopting [Health]>",
+			"Only available <after adopting [Public Services]>",
 			"All newly-trained [Land] units [in this city] receive the [Stimpak] promotion"]
 	},
 	{
@@ -346,7 +346,7 @@
 		"maintenance": 2,
 		"requiredResource": "Clean Water",
 		"greatPersonPoints": {"Great Scientist": 1, "Great Artist": 1},
-		"uniques": ["Only available <after adopting [Education]>",
+		"uniques": ["Only available <after adopting [Public Services]>",
 		"[+1 Science, +1 Culture] per [2] population [in this city]",
 	"[+1 Science, +1 Culture] per [4] population [in this city] <when above [0] [Energy]>"]
 	},
@@ -377,15 +377,43 @@
 	{
     "name": "Conscription",
     "cost": 1,
-	"happiness": -4,
 	"isNationalWonder": true,
     "uniques": [
 		"Only available <after adopting [Conscription]>",
 		"Only available <if [Barracks] is constructed in all [non-[Puppeted]] cities>",
-		"[+50]% Production when constructing [Military] units [in all cities]"
+		"Can only be built <in [Capital] cities>",
+		"[-1 Happiness] [in all cities] <for [10] turns>",
+		"[-1] population [in all cities]",
+		"[+1000]% Production when constructing [Military] units [in all cities] <for [1] turns>"
     ]
 },
 
+    {
+        "name": "Federalism",
+        "isNationalWonder": true,
+        "cost": 1,
+        "uniques": [
+			"Only available <after adopting [Administration]>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Unitarism]>",
+            "[+1 Happiness] [in all cities]",
+            "[+10]% [Culture] [in all cities]",
+			"[-10]% [Production] [in all cities]"
+        ]
+    },
+    {
+        "name": "Unitarism",
+        "isNationalWonder": true,
+        "cost": 1,
+        "uniques": [
+			"Only available <after adopting [Administration]>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Federalism]>",
+            "[+15]% [Production] [in all cities]",
+            "[-1 Happiness] [in all cities]",
+            "[-1 Culture] [in all cities]"
+        ]
+    },
 
 // Pragmatism 
 {
@@ -462,7 +490,7 @@
 		"requiredResource": "Clean Water",
 		"greatPersonPoints": {"Great General": 2},
 		"uniques": [
-			"Only available <after adopting [Education]>",
+			"Only available <after adopting [Public Services]>",
 			"[+25]% Production when constructing [Military] units [in this city]",
 			"New [Military] units start with [15] XP [in this city]",
 		"All newly-trained [Military] units [in this city] receive the [Efficiency] promotion",
@@ -496,7 +524,7 @@
     "uniques": [
 		"Only available <after adopting [Conscription]>",
 		"Only available <if [Barracks] is constructed in all [non-[Puppeted]] cities>",
-		"Instantly gain [1] [Fusion Core]",
+		"Instantly gain [2] [Fusion Core]",
 		"Free [Paladin] appears"
     ]
 },
@@ -511,12 +539,27 @@
 		"requiredResource": "Clean Water",
 		"greatPersonPoints": {"Great Scientist": 2},
 		"uniques": [
-			"Only available <after adopting [Education]>",
+			"Only available <after adopting [Public Services]>",
 			"[+1 Science] per [2] population [in this city]",
 			"New [Military] units start with [15] XP [in this city]",
 			"[+1 Science] per [4] population [in this city] <when above [0] [Energy]>",
 		"New [Military] units start with [15] XP [in this city] <when above [0] [Energy]>"]
 	},
+		{
+    "name": "Search for Weapons",
+	"uniqueTo":"Brotherhood of Steel",
+	"replaces": "Search for Survivors",
+    "cost": 120,
+	"isNationalWonder": true,
+    "uniques": [
+		"Only available <after adopting [Search for Survivors]>",
+		"Requires at least [5] population",
+		"Cost increases by [30] per owned city",
+		"Reveal up to [All] [All] within a [8] tile radius",
+		"Instantly gain [2] [Fusion Core]",
+		"Provides [1] [Ammunition]"
+    ]
+},
 
 	// NCR
 
