@@ -13,6 +13,10 @@
         "cityStrengthFromTechsMultiplier":1.1,
         "cityStrengthFromTechsExponent":1.1,
         "naturalWonderCountMultiplier":0.248,
+        "ancientRuinCountMultiplier": 0.25,
+        "cityExpandRange": 3,
+        "minimumWarDuration": 4,
+        "cityStateElectionTurns": 4,
         "riverCountMultiplier":0.04,
         "minRiverLength":3
     },

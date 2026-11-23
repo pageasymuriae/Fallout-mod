@@ -43,7 +43,8 @@
             "[+50]% Production when constructing [Power Armor] units [in all cities]",
 			"[+100]% XP gained from combat <for [Military] units>",
 			"Earn [100]% of killed [Military] unit's [Strength] as [Science]",
-			"[+2 Science, +2 Culture, +2 Faith] from every [Barracks]"
+			"[+2 Science, +2 Culture, +2 Faith] from every [Barracks]",
+            "Starts with [Technocracy] adopted"
 		],
     "cities": [
         "Lost Hill",
@@ -92,7 +93,9 @@
             "[+50]% Production when constructing [Standard G.E.C.K.] units [in all cities]",
 			"[-50]% maintenance on road & railroads <after adopting [Bureaucracy]>",
 			"[-50]% maintenance costs <for [Military] units> <after adopting [Bureaucracy]>",
-			"[-25]% Culture cost of natural border growth [in all cities]"
+			"[-25]% Culture cost of natural border growth [in all cities]",
+            "Starts with [Democracy] adopted",
+            "Starts with [Capitalism] adopted"
         ],
     "cities": [
         "Shady Sands",
@@ -125,14 +128,15 @@
     "neutralHello": "Speak quickly, profligate. Legion values strength and action, not empty words.",
     "hateHello": "Your weak civilization is an affront to history. Degenerates like you belong on a cross.",
     "tradeRequest": "If a tribute or trade serves the expansion of the Legion, we shall hear your terms.",
-		"outerColor": [70, 0, 118],
-		"innerColor": [240, 199, 0],
+		"outerColor": [255, 0, 0],
+		"innerColor": [255, 255, 0],
     "uniques": [
             "[+25]% Production when constructing [Military] units [in all cities]",
             "[+1 Happiness] [in all cities with a garrison]",
             "[+1 Happiness, +2 Faith] [in all cities] <when at war>",
             "[+2 Faith, +2 Production] from every [Barracks]",
-            "[+5 Faith] from every [Conscription]"
+            "[+5 Faith] from every [Conscription]",
+            "Starts with [Autocracy] adopted"
         ],
     "cities": [
         "Flagstaff",
@@ -170,7 +174,8 @@
             "All newly-trained [Land] units [in all cities] receive the [Ghoul] promotion",
             "[+1 Food] from [Fallout] tiles [in all cities]",
             "[-40]% growth [in all cities]",
-            "Free [The Ghoul] appears <upon discovering [Ballistic Weaponry] technology>"
+            "Free [The Ghoul] appears <upon discovering [Ballistic Weaponry] technology>",
+            "Starts with [Survivalism] adopted"
         ],
     "cities": [
         "Necropolis",
@@ -191,19 +196,22 @@
         "declaringWar": "You leave us no choice. War it must be.",
         "attacked": "Two men enter, one man leaves!",
         "defeated": "You run Bartertown.",
-        "outerColor": [0, 0, 0],
+        "outerColor": [125, 0, 125],
         "innerColor": [255, 242, 0],
 		"uniques": [
             "Cannot build [Standard G.E.C.K.] units",
             "Free [Standard G.E.C.K.] appears <upon adopting [Survivalism Complete]>",
             "Free [Standard G.E.C.K.] appears <upon adopting [State Complete]>",
-			"[+100]% [Science] [in all cities]",
-			"[+100]% [Gold] [in all cities]",
-			"[+100]% [Happiness] [in all cities]",
-			"[+100]% [Culture] [in all cities]",
-			"[+100]% [Food] [in all cities]"
+            "[+4] population [in capital]",
+            "[+50]% [Gold] [in all cities]",
+			"[+75]% [Happiness] [in capital]",
+			"[+75]% [Food] [in capital]",
+			"[-25]% [Happiness] [in all cities]",
+			"[-25]% [Food] [in all cities]",
+            "Starts with [Technocracy] adopted",
+            "Starts with [Capitalism] adopted"
 		],
-        "cities": ["New Vegas", "Freeside", "Westside"]
+        "cities": ["The Strip", "Freeside", "Westside"]
     },
 
 // City-states

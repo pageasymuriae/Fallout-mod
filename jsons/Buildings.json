@@ -544,6 +544,8 @@
     "name": "Ghouls' Cemetery",
 	"happiness": 2,
 	"culture": 4,
+	"uniqueTo": "Ghouls",
+	"replaces": "Cemetery",
     "cost": 100,
     "uniques": [
 		"Only available <after adopting [Survivalism Complete]>",

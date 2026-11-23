@@ -78,7 +78,7 @@
             "Domination": 10,
             "Scientific": 10
         },
-        "uniques": ["Unlocks Currency", "Unlocks Taxes"],
+        "uniques": ["Unlocks Currency", "Unlocks Taxes", "Only available <after adopting [Survivalism Complete]>"],
         "policies": [
                         {
                 "name": "Bureaucracy",
@@ -88,7 +88,7 @@
             },
                                     {
                 "name": "Public Investment",
-                "uniques": [],
+                "uniques": ["[Gold] cost of purchasing items in cities [-25]%"],
                 "row": 1,
                 "column": 4
             },
@@ -167,6 +167,309 @@
                 "name": "Pragmatism Complete",
                 "uniques": [
                     "[+10]% [Production] [in all cities]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Democracy",
+        "era": "Reconstruction era",
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 15,
+            "Diplomatic": 15,
+            "Domination": 5,
+            "Scientific": 10
+        },
+        "uniques": [
+            "Only available <after adopting [State Complete]>",
+            "Only available <before adopting [Autocracy]>",
+            "Only available <before adopting [Technocracy]>"
+        ],
+        "policies": [
+            {
+                "name": "Representation",
+                "uniques": [
+                    "[+1 Culture] [in all cities]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Civil Liberties",
+                "uniques": [
+                    "[+1 Happiness] [in all cities]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Popular Mandate",
+                "uniques": [
+                    "[+15]% Production when constructing [All] buildings [in all cities]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Public Accountability",
+                "requires": ["Representation", "Civil Liberties"],
+                "uniques": [
+                    "[+10]% [Science] [in all cities]"
+                ],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Federalism",
+                "requires": ["Civil Liberties", "Popular Mandate"],
+                "uniques": [
+                    "[+1 Gold] [in all cities]"
+                ],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Democracy Complete",
+                "uniques": [
+                    "[+10]% [Culture] [in all cities]",
+                    "[+10]% [Gold] [in all cities]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Autocracy",
+        "era": "Reconstruction era",
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 15,
+            "Scientific": 5
+        },
+        "uniques": [
+            "Only available <after adopting [State Complete]>",
+            "Only available <before adopting [Democracy]>",
+            "Only available <before adopting [Technocracy]>"
+        ],
+        "policies": [
+            {
+                "name": "Centralization",
+                "uniques": [
+                    "[+10]% Production when constructing [Military] units [in all cities]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Militarization",
+                "uniques": [
+                    "New [Military] units start with [15] XP [in all cities]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "State Propaganda",
+                "requires": ["Centralization"],
+                "uniques": [
+                    "[+1 Culture] [in all cities]",
+                    "[+10]% [Culture] [in all cities]"
+                ],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Forced Mobilization",
+                "requires": ["Militarization"],
+                "uniques": [
+                    "[+20]% Production when constructing [Military] units [in all cities]",
+                    "[-1 Happiness] [in all cities]"
+                ],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Autocracy Complete",
+                "uniques": [
+                    "[+15]% [Production] [in all cities]",
+                    "[+1 Happiness] [in all cities]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Technocracy",
+        "era": "Reconstruction era",
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 15
+        },
+        "uniques": [
+            "Only available <after adopting [State Complete]>",
+            "Only available <before adopting [Autocracy]>",
+            "Only available <before adopting [Democracy]>"
+        ],
+        "policies": [
+            {
+                "name": "Expert Administration",
+                "uniques": [
+                    "[+10]% [Science] [in all cities]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Scientific Planning",
+                "uniques": [
+                    "[+10]% Production when constructing [Science] buildings [in all cities]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Technical Education",
+                "uniques": [
+                    "[+1 Science] [in all cities]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Automation",
+                "requires": ["Expert Administration", "Scientific Planning"],
+                "uniques": [
+                    "[+10]% [Production] [in all cities]"
+                ],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Applied Research",
+                "requires": ["Scientific Planning", "Technical Education"],
+                "uniques": [
+                    "[+15]% Production when constructing [All] buildings [in all cities]"
+                ],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Technocracy Complete",
+                "uniques": [
+                    "[+15]% [Science] [in all cities]",
+                    "[+10]% [Production] [in all cities]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Capitalism",
+        "era": "Reconstruction era",
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 5,
+            "Diplomatic": 15,
+            "Domination": 5,
+            "Scientific": 10
+        },
+        "uniques": [
+            "Only available <before adopting [Communism]>",
+            "Only available <after adopting [State Complete]>"
+        ],
+        "policies": [
+            {
+                "name": "Private Property",
+                "uniques": [
+                    "[+1 Gold] from every [Scrapyard]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Free Enterprise",
+                "uniques": [
+                    "[+15]% [Gold] [in all cities]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Free Market",
+                "requires": ["Private Property", "Free Enterprise"],
+                "uniques": [
+                    "[+1 Gold] from every [Harbor]"
+                ],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Capitalism Complete",
+                "uniques": [
+                    "[+15]% [Gold] [in all cities]",
+                    "[+10]% [Production] [in all cities]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Communism",
+        "era": "Reconstruction era",
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 10,
+            "Scientific": 10
+        },
+        "uniques": [
+            "Only available <before adopting [Capitalism]>",
+            "Only available <after adopting [State Complete]>"
+        ],
+        "policies": [
+            {
+                "name": "Collective Ownership",
+                "uniques": [
+                    "[+1 Production] [in all cities]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Planned Economy",
+                "uniques": [
+                    "[+15]% Production when constructing [All] buildings [in all cities]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Universal Provision",
+                "requires": ["Collective Ownership", "Planned Economy"],
+                "uniques": [
+                    "[+1 Happiness] [in all cities]",
+                    "[+10]% [Food] [in all cities]"
+                ],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Scientific Cooperation",
+                "requires": ["Planned Economy"],
+                "uniques": [
+                    "[+15]% [Science] [in all cities]"
+                ],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Communism Complete",
+                "uniques": [
+                    "[+15]% [Production] [in all cities]",
+                    "[+10]% [Food] [in all cities]"
                 ]
             }
         ]
