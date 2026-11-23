@@ -402,7 +402,7 @@
 		"strength": 15,
 		"rangedStrength": 15,
 		"hurryCostModifier": 20,
-		"uniques": ["[+175] HP when healing", "Withdraws before melee combat <with [50]% chance>", "[-200]% Strength <vs cities> <when attacking>", "[+100]% Strength <vs [Power Armor] units> <when attacking>", "No Movement Cost to Pillage", "Unbuildable"],
+		"uniques": ["[+175] HP when healing", "Withdraws before melee combat <with [50]% chance>", "[-200]% Strength <vs cities> <when attacking>", "[+100]% Strength <vs [Power Armor] units> <when attacking>", "No movement cost to pillage", "Unbuildable"],
 		"promotions": ["Sentry", "Extended Range", "Blitz", "Ghoul"],
 		"attackSound": "shot"
 	}

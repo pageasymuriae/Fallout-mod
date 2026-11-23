@@ -82,7 +82,7 @@
         "policies": [
                         {
                 "name": "Bureaucracy",
-                "uniques": ["[-1 Happiness]", "[+5 Production, +5 Gold] from every Printer"],
+                "uniques": ["[-1 Happiness]", "[+5 Production, +5 Gold] from every [Printer]"],
                 "row": 1,
                 "column": 2
             },

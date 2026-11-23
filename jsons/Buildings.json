@@ -75,6 +75,7 @@
 		"name": "Library",
 		"happiness": 2,
 		"maintenance": 2,
+		"requiredTech": "Writing",
 		"requiredResource": "Pre-war Books",
 		"greatPersonPoints": {"Great Scientist": 1, "Great Artist": 1},
 		"uniques": ["Only available <after adopting [Education]>",

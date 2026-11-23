@@ -28,14 +28,14 @@
     "hateHello": "You are a threat to the preservation of humanity. Do not test our patience.",
     "tradeRequest": "The Brotherhood is willing to negotiate. Technology and resources can serve both our interests.",
 "outerColor": [
-        147,
-        7,
-        7
+        168,
+        56,
+        56
     ],
     "innerColor": [
-                255,
-        114,
-        114
+                3,
+        3,
+        3
     ],
 	"uniques": [
             "[Great Scientist] is earned [50]% faster <when at war>",
@@ -77,14 +77,14 @@
     "hateHello": "You are a obstacle to expansion and rule of law. Tread carefully around NCR territory.",
     "tradeRequest": "Fair trade benefits the Republic and its allies. Let us see if we can reach an agreement.",
     "outerColor": [
-        212,
-        175,
-        55
+        230,
+        220,
+        220
     ],
     "innerColor": [
-        89,
-        60,
-        31
+        148,
+        0,
+        0
     ],
     "uniques": [
         "[+25]% [Gold] [in all cities] <after adopting [State]>",
@@ -164,8 +164,8 @@
     "neutralHello": "Hey, fella!",
     "hateHello": "You deserve hell.",
     "tradeRequest": "We should make commerce.",
-		"outerColor": [70, 0, 118],
-		"innerColor": [240, 199, 0],
+		"outerColor": [0, 0, 0],
+		"innerColor": [255, 0, 0],
     "uniques": [
             "All newly-trained [Land] units [in all cities] receive the [Ghoul] promotion",
             "[+1 Food] from [Fallout] tiles [in all cities]",
@@ -184,6 +184,27 @@
         "Good Neighbor"
     ]
 },
+    {
+        "name": "New Vegas",
+        "adjective": ["New Vegas"],
+        "startBias": ["Desert"],
+        "declaringWar": "You leave us no choice. War it must be.",
+        "attacked": "Two men enter, one man leaves!",
+        "defeated": "You run Bartertown.",
+        "outerColor": [0, 0, 0],
+        "innerColor": [255, 242, 0],
+		"uniques": [
+            "Cannot build [Standard G.E.C.K.] units",
+            "Free [Standard G.E.C.K.] appears <upon adopting [Survivalism Complete]>",
+            "Free [Standard G.E.C.K.] appears <upon adopting [State Complete]>",
+			"[+100]% [Science] [in all cities]",
+			"[+100]% [Gold] [in all cities]",
+			"[+100]% [Happiness] [in all cities]",
+			"[+100]% [Culture] [in all cities]",
+			"[+100]% [Food] [in all cities]"
+		],
+        "cities": ["New Vegas", "Freeside", "Westside"]
+    },
 
 // City-states
 
@@ -202,7 +223,7 @@
         "innerColor": [194, 7, 255],
         "cities": ["Novac"]
     },
-    {
+        /* {
         "name": "New Vegas",
         "adjective": ["New Vegas"],
         "cityStateType": "New Vegas",
@@ -221,7 +242,7 @@
 			"[+100]% [Food] [in all cities]"
 		],
         "cities": ["New Vegas"]
-    },
+    }, */
     {
         "name": "Primm",
         "adjective": ["Primm"],
