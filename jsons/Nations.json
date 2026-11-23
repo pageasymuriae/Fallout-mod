@@ -194,7 +194,9 @@
     {
         "name": "New Vegas",
         "adjective": ["New Vegas"],
+        "leaderName": "Robert House",
         "startBias": ["Desert"],
+        "uniqueName": "The House always wins!",
         "declaringWar": "You leave us no choice. War it must be.",
         "attacked": "Two men enter, one man leaves!",
         "defeated": "You run Bartertown.",
@@ -204,12 +206,6 @@
             "Cannot build [Standard G.E.C.K.] units",
             "Free [Standard G.E.C.K.] appears <upon adopting [Survivalism Complete]>",
             "Free [Standard G.E.C.K.] appears <upon adopting [State Complete]>",
-            "[+4] population [in capital]",
-            "[+50]% [Gold] [in all cities]",
-			"[+75]% [Happiness] [in capital]",
-			"[+75]% [Food] [in capital]",
-			"[-25]% [Happiness] [in all cities]",
-			"[-25]% [Food] [in all cities]",
             "Starts with [Technocracy] adopted",
             "Starts with [Capitalism] adopted"
 		],

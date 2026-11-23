@@ -595,5 +595,24 @@
 		"[+10]% growth [in all cities]",
 		"[+1] population [in this city]"
     ]
-}
+},
+
+// New Vegas
+
+	{
+		"name": "Lucky 38",
+		"isNationalWonder": true,
+		"uniqueTo": "New Vegas",
+		"replaces": "G.E.C.K.",
+		"production": 3,
+		"happiness": 4,
+		"science": 3,
+		"gold": 3,
+		"culture": 3,
+		"cityStrength": 5,
+		"percentStatBonus": {"food": 25, "gold": 50},
+		"cityHealth": 50,
+		"cost": 0,
+		"uniques": ["Indicates the capital city", "[+4] population [in this city]"]
+	}
 ]
