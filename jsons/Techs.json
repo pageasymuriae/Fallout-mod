@@ -68,7 +68,7 @@
 				"name": "Ecology",
 				"row": 3,
 				"prerequisites": ["Botany"],
-				"quote": "Out here, nothing goes to waste. Not even what remains of the dead."
+				"quote": "Nature always finds a way. Unfortunately, sometimes it finds a way to grow two heads"
 			},
 			{
 				"name": "Fertilizers",
@@ -80,25 +80,25 @@
 				"name": "Writing",
 				"row": 6,
 				"prerequisites": ["Scavenging"],
-				"quote": "It's loud, ugly, and jams half the time. But it beats throwing rocks at a Super Mutant."
+				"quote": "The pre-war books and data is as valuable as gold nowadays..."
 			},	
 															{
 				"name": "Roads",
 				"row": 7,
 				"prerequisites": ["Scavenging"],
-				"quote": "It's loud, ugly, and jams half the time. But it beats throwing rocks at a Super Mutant."
+				"quote": "Roads, to rebuild society."
 			},	
 												{
 				"name": "Metallurgy",
 				"row": 8,
 				"prerequisites": ["Scavenging"],
-				"quote": "It's loud, ugly, and jams half the time. But it beats throwing rocks at a Super Mutant."
+				"quote": "The old world left us plenty of scrap. What matters is knowing how to turn it into something useful."
 			},	
 						{
 				"name": "Pipe Weapons",
 				"row": 9,
 				"prerequisites": ["Scavenging"],
-				"quote": "It's loud, ugly, and jams half the time. But it beats throwing rocks at a Super Mutant."
+				"quote": "What was that quote, about sticks and stones in the Fourth World War?"
 			}
 		]
 	},
@@ -114,32 +114,32 @@
 				"row": 1,
 				"prerequisites": ["Navigation", "Refrigeration"],
                 "uniques": ["Enables embarkation for land units"],
-				"quote": "Who commands the sea has command of everything."
+				"quote": "Even in the fucking nuclear holocaust, humanity can't let the oil go."
 			},	
 									{
 				"name": "Medicine",
 				"row": 4,
 				"prerequisites": ["Ecology"],
 				"uniques": ["[+2 Science] from every [Cemetery]"],
-				"quote": "Out here, nothing goes to waste. Not even what remains of the dead."
+				"quote": "A civilization is measured not by how many people it can kill, but by how many it can keep alive."
 			},	
 									{
 				"name": "Chemistry",
 				"row": 5,
 				"prerequisites": ["Fertilizers"],
-				"quote": "Out here, nothing goes to waste. Not even what remains of the dead."
+				"quote": "Every substance is a poison. The difference lies in the dose, the application, and who's holding the flask."
 			},		
 						{
 				"name": "Pipes and Wires",
 				"row": 9,
 				"prerequisites": ["Metallurgy", "Pipe Weapons"],
-				"quote": "'The haft of the arrow has been feathered with one of the eagle's own plumes, we often give our enemies the means of our own destruction' - Aesop"
+				"quote": "Water, electricity, communication. The foundations of civilization are hidden beneath our feet. Sometimes, literally."
 			},
 						{
 				"name": "Ballistic Weaponry",
 				"row": 10,
 				"prerequisites": ["Metallurgy", "Pipe Weapons"],
-				"quote": "'The haft of the arrow has been feathered with one of the eagle's own plumes, we often give our enemies the means of our own destruction' - Aesop"
+				"quote": "Hunter Rifles, Grenades and what the fuck you want. History doesn't repeat itself but it often rhymes."
 			}
 		]
 	},
@@ -154,19 +154,19 @@
 				"name": "Water Power",
 				"row": 10,
 				"prerequisites": ["Pipes and Wires"],
-				"quote": "'The haft of the arrow has been feathered with one of the eagle's own plumes, we often give our enemies the means of our own destruction' - Aesop"
+				"quote": "The river has been flowing long before us. It will be after us. Unless..."
 			},
 									{
 				"name": "Electricity",
 				"row": 9,
 				"prerequisites": ["Pipes and Wires"],
-				"quote": "'The haft of the arrow has been feathered with one of the eagle's own plumes, we often give our enemies the means of our own destruction' - Aesop"
+				"quote": "The lights of the old world went out. Someone has to turn them back on."
 			},
 									{
 				"name": "Desert Power",
 				"row": 8,
 				"prerequisites": ["Pipes and Wires"],
-				"quote": "'The haft of the arrow has been feathered with one of the eagle's own plumes, we often give our enemies the means of our own destruction' - Aesop"
+				"quote": "The sun burns the wasteland without mercy. We might as well make it work for us."
 			}
 		]
 	}

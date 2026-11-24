@@ -296,6 +296,20 @@
 		"attackSound": "tankshot"
 	},
 
+	// ROBOTS
+
+				{
+		"name": "Victor",
+		"unitType": "Scrapper",
+		"movement": 3,
+		"strength": 15,
+		"rangedStrength": 15,
+		"cost": 80,
+		"uniques": ["Unbuildable", "Ignores terrain cost"],
+		"promotions": ["Sentry", "Extended Range"],
+		"attackSound": "tankshot"
+	},
+
 	// UNIQUE UNITS
 
 	// LEGION

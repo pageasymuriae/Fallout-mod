@@ -130,5 +130,38 @@
         "text": "The founder of Necropolis and leader of the Ghouls."
     }
 ]
+},
+{
+    "name": "Robert House",
+    "production": 6,
+    "food": 6,
+    "gold": 8,
+    "science": 12,
+    "culture": 6,
+    "happiness": 8,
+    "faith": 0,
+    "military": 8,
+    "aggressive": 1,
+    "declareWar": 1,
+    "commerce": 10,
+    "diplomacy": 10,
+    "loyal": 4,
+    "expansion": 0,
+    "denounceWillingness": 0,
+    "priorities": {
+        "Survivalism": 10,
+        "State": 10,
+        "Pragmatism": 6,
+        "Democracy": 1,
+        "Autocracy": 1,
+        "Technocracy": 10,
+        "Capitalism": 6,
+        "Communism": 5
+    },
+    "civilopediaText": [
+    {
+        "text": "Billionaire, filantrope, scientist, genius, engineer etc"
+    }
+]
 }
 ]

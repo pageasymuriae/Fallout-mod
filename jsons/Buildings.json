@@ -610,9 +610,9 @@
 		"gold": 3,
 		"culture": 1,
 		"cityStrength": 5,
-		"percentStatBonus": {"food": 25, "gold": 50},
+		"percentStatBonus": {"science": 25, "gold": 50},
 		"cityHealth": 50,
 		"cost": 0,
-		"uniques": ["Indicates the capital city", "[+4] population [in this city]", "[+5 Food] [in this city] <for [5] turns>"]
+		"uniques": ["Indicates the capital city", "[+4] population [in this city]", "[+5 Food] [in this city] <for [5] turns>", "[-100]% Culture cost of natural border growth [in this city] <for [5] turns>"]
 	}
 ]
