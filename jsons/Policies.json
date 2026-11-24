@@ -63,11 +63,11 @@
         "name": "State",
         "era": "Reconstruction era",
         "priorities": {
-            "Neutral": 10,
-            "Cultural": 10,
-            "Diplomatic": 10,
-            "Domination": 10,
-            "Scientific": 10
+            "Neutral": 15,
+            "Cultural": 15,
+            "Diplomatic": 15,
+            "Domination": 15,
+            "Scientific": 15
         },
         "uniques": ["Unlocks Currency", "Unlocks Taxes", "Only available <after adopting [Survivalism Complete]>"],
         "policies": [
@@ -123,11 +123,11 @@
         "name": "Pragmatism",
         "era": "Reconstruction era",
         "priorities": {
-            "Neutral": 5,
-            "Cultural": 5,
-            "Diplomatic": 5,
-            "Domination": 5,
-            "Scientific": 5
+            "Neutral": 10,
+            "Cultural": 10,
+            "Diplomatic": 10,
+            "Domination": 10,
+            "Scientific": 10
         },
         "uniques": [],
         "policies": [
@@ -164,11 +164,11 @@
         "name": "Democracy",
         "era": "Reconstruction era",
         "priorities": {
-            "Neutral": 10,
+            "Neutral": 15,
             "Cultural": 15,
             "Diplomatic": 15,
-            "Domination": 5,
-            "Scientific": 10
+            "Domination": 15,
+            "Scientific": 15
         },
         "uniques": [
             "Only available <after adopting [State Complete]>",
@@ -231,11 +231,11 @@
         "name": "Autocracy",
         "era": "Reconstruction era",
         "priorities": {
-            "Neutral": 10,
-            "Cultural": 5,
-            "Diplomatic": 5,
+            "Neutral": 15,
+            "Cultural": 15,
+            "Diplomatic": 15,
             "Domination": 15,
-            "Scientific": 5
+            "Scientific": 15
         },
         "uniques": [
             "Only available <after adopting [State Complete]>",
@@ -292,10 +292,10 @@
         "name": "Technocracy",
         "era": "Reconstruction era",
         "priorities": {
-            "Neutral": 10,
-            "Cultural": 5,
-            "Diplomatic": 5,
-            "Domination": 5,
+            "Neutral": 15,
+            "Cultural": 15,
+            "Diplomatic": 15,
+            "Domination": 15,
             "Scientific": 15
         },
         "uniques": [
@@ -359,11 +359,11 @@
         "name": "Capitalism",
         "era": "Reconstruction era",
         "priorities": {
-            "Neutral": 10,
-            "Cultural": 5,
+            "Neutral": 15,
+            "Cultural": 15,
             "Diplomatic": 15,
-            "Domination": 5,
-            "Scientific": 10
+            "Domination": 15,
+            "Scientific": 15
         },
         "uniques": [
             "Only available <before adopting [Communism]>",
@@ -408,11 +408,11 @@
         "name": "Communism",
         "era": "Reconstruction era",
         "priorities": {
-            "Neutral": 10,
-            "Cultural": 5,
-            "Diplomatic": 5,
-            "Domination": 10,
-            "Scientific": 10
+            "Neutral": 15,
+            "Cultural": 15,
+            "Diplomatic": 15,
+            "Domination": 15,
+            "Scientific": 15
         },
         "uniques": [
             "Only available <before adopting [Capitalism]>",

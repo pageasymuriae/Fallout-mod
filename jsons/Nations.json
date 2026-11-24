@@ -258,10 +258,10 @@
         "defeated": "You run Primm.",
         "outerColor": [0, 0, 0],
         "innerColor": [194, 7, 255],
-        "uniques": ["Free [Victor] appears <upon discovering [Scavenging] technology>"],
+        "uniques": ["Free [Primm Slim] appears <upon discovering [Scavenging] technology>"],
         "cities": ["Primm"]
     },
-    /* {
+     {
         "name": "Goodsprings",
         "adjective": ["Goodsprings"],
         "cityStateType": "Farming",
@@ -269,11 +269,13 @@
         "startBias": ["Desert"],
         "declaringWar": "You leave us no choice. War it must be.",
         "attacked": "Two men enter, one man leaves!",
-        "defeated": "You run Bartertown.",
+        "defeated": "You run Goodsprings.",
         "outerColor": [0, 0, 0],
         "innerColor": [194, 7, 255],
+        "uniques": ["Free [Victor] appears <upon discovering [Scavenging] technology>"],
         "cities": ["Goodsprings"]
     },
+    /*
     {
         "name": "Jacobstown",
         "adjective": ["Jacobstown"],

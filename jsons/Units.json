@@ -6,6 +6,7 @@
 		{
 		"name": "Hazmat Worker",
 		"unitType": "Civilian",
+		/* "upgradesTo": "Mr. Handy", */
 		"requiredTech": "Hazmat Suit",
 		"movement": 2,
 		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
@@ -298,16 +299,48 @@
 
 	// ROBOTS
 
+			{
+		"name": "Mr. Handy",
+		"unitType": "Robot",
+		"uniqueTo":"New Vegas",
+		"replaces": "Hazmat Worker",
+		"strength": 5,
+		"rangedStrength": 8,
+		"movement": 4,
+		"uniques": ["Can build [Land] improvements on tiles", "Can build [all] improvements at a [+100]% rate", "Automation is a primary action"],
+		"cost": 70
+	},
+
 				{
 		"name": "Victor",
-		"unitType": "Scrapper",
+		"unitType": "Robot",
+		"uniqueTo": "New Vegas",
+		"replaces": "Scout",
 		"movement": 3,
-		"strength": 15,
-		"rangedStrength": 15,
-		"cost": 80,
-		"uniques": ["Unbuildable", "Ignores terrain cost"],
-		"promotions": ["Sentry", "Extended Range"],
-		"attackSound": "tankshot"
+		"strength": 10,
+		"rangedStrength": 10,
+		"cost": 50,
+		"uniques": ["Ignores terrain cost"],
+		"promotions": ["Sentry"],
+		"attackSound": "tankshot",
+        "civilopediaText": [
+			{"text": "Heyo, partner!"}
+		]
+	},
+
+					{
+		"name": "Primm Slim",
+		"unitType": "Robot",
+		"movement": 1,
+		"strength": 10,
+		"rangedStrength": 10,
+		"cost": 50,
+		"uniques": ["Unbuildable", "[+25]% Strength bonus for [Military] units within [3] tiles", "[+2] Movement <in [{Friendly} {Land}] tiles>", "[+100]% Strength <when fighting in [Friendly Land] tiles>"],
+		"attackSound": "tankshot",
+		"promotions": ["Sentry"],
+        "civilopediaText": [
+			{"text": "The sheriff of Primm!"}
+		]
 	},
 
 	// UNIQUE UNITS
@@ -367,10 +400,8 @@
 		"replaces": "Scientist",
 		"uniques": [
 			"Instantly gain [2] [Fusion Core] <by consuming this unit>",
-			"Can hurry technology research",
 			"Is part of Great Person group [Great Person]",
             "[This Unit] gets a name from the [Scribe] group",
-            "Can instantly construct a [Academy] improvement <by consuming this unit>",
             "Great Person - [Science]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},

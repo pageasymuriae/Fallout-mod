@@ -16,6 +16,11 @@
         "movementType": "Land",
         "uniques": ["Ignores terrain cost"]
     },
+        {
+        "name": "Robot",
+        "movementType": "Land",
+        "uniques": ["[+200]% maintenance costs", "[+100]% Strength <when defending>"]
+    },
     {
         "name": "Power Armor",
         "movementType": "Land",
