@@ -209,6 +209,26 @@
 		],
         "cities": ["The Strip", "Freeside", "Westside"]
     },
+        {
+        "name": "China Remnants",
+        "adjective": ["China"],
+        "leaderName": "Huang",
+    "declaringWar": "我们将摧毁整个美国……就从你开始。",
+    "attacked": "我应该想到这一点……毕竟，你是美国人。",
+    "defeated": "中国又没了。老天，我到底做了什么?",
+    "introduction": "我是黄，我代表着中国文化的遗存。你是谁?",
+    "neutralHello": "嘿，哥们儿，最近过得怎么样?",
+    "hateHello": "你他妈现在又想干嘛?",
+        "outerColor": [255, 0, 0],
+        "innerColor": [255, 255, 0],
+		"uniques": [
+            "Starts with [Communism] adopted",
+            "[-50]% enemy spy effectiveness [in all cities]",
+            "Gain an extra spy",
+            "New spies start with [5] level(s)"
+		],
+        "cities": ["The Strip", "Freeside", "Westside"]
+    },
 
 // City-states
 

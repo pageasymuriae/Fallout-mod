@@ -7,6 +7,11 @@
         "name": "Scrapper",
         "movementType": "Land"
     },
+        {
+        "name": "Stealth",
+        "movementType": "Land",
+        "uniques": ["Invisible to non-adjacent units"]
+    },
     {
         "name": "Ballistic",
         "movementType": "Land"
@@ -19,13 +24,28 @@
         {
         "name": "Robot",
         "movementType": "Land",
-        "uniques": ["[+200]% maintenance costs", "[+100]% Strength <when defending>"]
+        "uniques": ["[+200]% maintenance costs", "[+100]% Strength <when defending>", "Can see invisible [Stealth] units"]
     },
     {
         "name": "Power Armor",
         "movementType": "Land",
         "uniques": ["Costs [1] [Fusion Core]", "[+200]% maintenance costs", "[This Unit] gets a name from the [Knight] group"]
     },
+    {"name": "Submarine",
+"movementType": "Water",
+"uniques": ["Invisible to non-adjacent units", 
+"[+75]% Strength <when attacking>",
+"Can only attack [Water] tiles",
+"Can see invisible [Submarine] units"]
+},
+    {"name": "Stealth Submarine",
+"movementType": "Water",
+"uniques": ["Invisible to non-adjacent units", 
+"[+75]% Strength <when attacking>",
+"Can only attack [Water] tiles",
+"Can see invisible [Submarine] units",
+"Can see invisible [Stealth Submarine] units"]
+},
     {
         "name": "Siege",
         "movementType": "Land",

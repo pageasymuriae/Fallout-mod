@@ -1,5 +1,18 @@
 [
-
+				/* {
+		"name": "SSN-37-1A",
+		"type": "NaturalWonder",
+		"science": 5,
+		"production": 2,
+		"gold": 2,
+		"occursOn": ["Ocean"],
+		"uniques": [
+			"Must be adjacent to [1] [Coast] tiles"
+		],
+		"turnsInto": "Ocean",
+		"unbuildable": true,
+		"weight": 10
+	}, */
 	// WONDERS
 	{
 		"name": "Nuka Cola Factory",
@@ -10,19 +23,6 @@
 		"culture": 2,
 		"food": 5,
 		"gold": 5,
-		"occursOn": ["Plains", "Grassland", "Desert", "Fallout"],
-		"uniques": [
-			"Must be adjacent to [0] [Coast] tiles"
-		],
-		"turnsInto": "Plains",
-		"impassable": true,
-		"unbuildable": true,
-		"weight": 10
-	},
-		{
-		"name": "PNG Test",
-		"type": "NaturalWonder",
-		"production": 4,
 		"occursOn": ["Plains", "Grassland", "Desert", "Fallout"],
 		"uniques": [
 			"Must be adjacent to [0] [Coast] tiles"

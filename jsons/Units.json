@@ -115,6 +115,17 @@
 
 	// Reconstruction era
 
+		{
+		"name": "Submarine",
+		"unitType": "Submarine",
+		"movement": 5,
+		"strength": 35,
+		"rangedStrength": 60,
+		"cost": 150,
+		"requiredTech": "Pre-salt Exploration",
+		"uniques": [],
+		"attackSound": "torpedo"
+	},
 {
 		"name": "Gunslinger",
 		"unitType": "Ballistic",
@@ -122,6 +133,7 @@
 		"obsoleteTech": "Military Robots",
 		"movement": 2,
 		"strength": 7,
+		"cost": 100,
 		"rangedStrength": 10,
 		"requiredTech": "Ballistic Weaponry",
 		"requiredResource": "Hunting Rifle",
@@ -162,6 +174,8 @@
 		"attackSound": "nuke",
 		"uniques": ["[+2] Range", "[-2] Sight", "Must set up to ranged attack", "Unbuildable"]
 	},
+
+	// Recivilization era
 
 
 	/* Great people */
@@ -336,7 +350,7 @@
 		"cost": 180
 	},
 						{
-		"name": "Mr. Gutst",
+		"name": "Mr. Gutsy",
 		"unitType": "Robot",
 		"requiredTech": "Civilian Robots",
 		"movement": 4,
@@ -355,7 +369,6 @@
 		"movement": 3,
 		"strength": 10,
 		"rangedStrength": 10,
-		"cost": 50,
 		"uniques": ["Ignores terrain cost", "Unbuildable"],
 		"promotions": ["Sentry"],
 		"attackSound": "tankshot",
@@ -370,7 +383,6 @@
 		"movement": 1,
 		"strength": 10,
 		"rangedStrength": 10,
-		"cost": 50,
 		"uniques": ["Unbuildable", "[+25]% Strength bonus for [Military] units within [3] tiles", "[+2] Movement <in [{Friendly} {Land}] tiles>", "[+100]% Strength <when fighting in [Friendly Land] tiles>"],
 		"attackSound": "tankshot",
 		"promotions": ["Sentry"],
@@ -385,6 +397,7 @@
 		"strength": 8,
 		"rangedStrength": 5,
 		"movement": 4,
+		"cost": 100,
 		"uniques": ["Ignores terrain cost"],
 		"promotions": ["Sentry"],
 		"attackSound": "shot"
@@ -405,6 +418,7 @@
 		"unitType": "Robot",
 		"requiredTech": "Military Robots",
 		"moviment": 4,
+		"cost": 150,
 		"strength": 15,
 		"uniques": [],
 		"attackSound": "tankshot"
@@ -412,6 +426,7 @@
 									{
 		"name": "Sentry Bot",
 		"unitType": "Robot",
+		"cost": 150,
 		"requiredTech": "Military Robots",
 		"moviment": 2,
 		"strength": 10,
@@ -541,4 +556,41 @@
 				],
 		"attackSound": "tankshot"
 	},
+
+	// China
+			{
+		"name": "Crimson Dragoon",
+		"unitType": "Stealth",
+		"uniqueTo": "China Remnants",
+		"replaces": "Sledgehammer",
+		"requiredTech": "Pipe Weapons",
+		"movement": 3,
+		"strength": 12,
+		"cost": 80,
+		"uniques": [],
+		"attackSound": "metalhit"
+	},
+			{
+		"name": "Ghost Fleet",
+		"unitType": "Stealth Submarine",
+		"replaces": "Submarine",
+		"uniqueTo": "China Remnants",
+		"movement": 5,
+		"strength": 40,
+		"rangedStrength": 65,
+		"cost": 120,
+		"requiredTech": "Pre-salt Exploration",
+		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Never appears as a Barbarian unit"],
+		"attackSound": "torpedo"
+	},
+				{
+		"name": "Liberator",
+		"unitType": "Robot",
+		"uniqueTo": "China Remnants",
+		"movement": 4,
+		"strength": 6,
+		"cost": 50,
+		"uniques": ["[+100]% Strength <when attacking>", "[+10]% Strength bonus for [Liberator] units within [1] tiles"],
+		"attackSound": "torpedo"
+	}
 ]
