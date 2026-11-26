@@ -169,5 +169,32 @@
 				"quote": "The sun burns the wasteland without mercy. We might as well make it work for us."
 			}
 		]
+	},
+		{
+		"columnNumber": 5,
+		"era": "Recivilization era",
+		"techCost": 175,
+		"buildingCost": 140,
+		"wonderCost": 270,
+		"techs": [
+						{
+				"name": "Civilian Robots",
+				"row": 10,
+				"prerequisites": ["Electricity"],
+				"quote": "The river has been flowing long before us. It will be after us. Unless..."
+			},
+									{
+				"name": "Scout Robots",
+				"row": 9,
+				"prerequisites": ["Electricity"],
+				"quote": "The lights of the old world went out. Someone has to turn them back on."
+			},
+									{
+				"name": "Military Robots",
+				"row": 8,
+				"prerequisites": ["Electricity"],
+				"quote": "The sun burns the wasteland without mercy. We might as well make it work for us."
+			}
+		]
 	}
 ]

@@ -153,14 +153,14 @@ BuildingIcons/Hoover Dam
   index: -1
 BuildingIcons/Public Hospitals
   rotate: false
-  xy: 674, 27
+  xy: 890, 348
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Public Schools
   rotate: false
-  xy: 782, 27
+  xy: 674, 27
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -202,7 +202,7 @@ ImprovementIcons/Fort
   index: -1
 ImprovementIcons/Refrigerator
   rotate: false
-  xy: 1698, 681
+  xy: 1574, 556
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -405,21 +405,21 @@ UnitIcons/Grenadier
   index: -1
 ResourceIcons/Pre-war Art
   rotate: false
-  xy: 782, 135
+  xy: 782, 243
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Pre-war Books
   rotate: false
-  xy: 890, 348
+  xy: 782, 135
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Sculptures
   rotate: false
-  xy: 1790, 573
+  xy: 1682, 465
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -601,14 +601,14 @@ UnitPromotionIcons/Stimpak
   index: -1
 TechIcons/Pre-salt Exploration
   rotate: false
-  xy: 782, 243
+  xy: 674, 135
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Roads
   rotate: false
-  xy: 1682, 573
+  xy: 1698, 681
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -746,6 +746,13 @@ UnitIcons/Mr. Handy
   orig: 446, 410
   offset: 0, 0
   index: -1
+BuildingIcons/Mr. Handy Factory
+  rotate: false
+  xy: 4, 62
+  size: 446, 410
+  orig: 446, 410
+  offset: 0, 0
+  index: -1
 UnitIcons/Nail Shooter
   rotate: false
   xy: 674, 243
@@ -760,14 +767,21 @@ TechIcons/Pipe Weapons
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Paladin
+UnitIcons/Primm Slim
   rotate: false
-  xy: 674, 135
-  size: 100, 100
-  orig: 100, 100
+  xy: 1731, 1018
+  size: 126, 230
+  orig: 126, 230
   offset: 0, 0
   index: -1
-UnitIcons/Primm Slim
+UnitIcons/Protectron
+  rotate: false
+  xy: 1731, 1018
+  size: 126, 230
+  orig: 126, 230
+  offset: 0, 0
+  index: -1
+UnitIcons/Securitron
   rotate: false
   xy: 1731, 1018
   size: 126, 230
@@ -776,21 +790,21 @@ UnitIcons/Primm Slim
   index: -1
 UnitIcons/Ranger
   rotate: false
-  xy: 1574, 556
+  xy: 782, 27
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Survivor
   rotate: false
-  xy: 1574, 556
+  xy: 782, 27
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Scrap Cannon
   rotate: false
-  xy: 1682, 465
+  xy: 1682, 573
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -800,6 +814,13 @@ UnitIcons/Scribe
   xy: 178, 4
   size: 50, 50
   orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitIcons/Shielder
+  rotate: false
+  xy: 1790, 573
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Sledgehammer
@@ -817,6 +838,13 @@ UnitIcons/T-45
   offset: 0, 0
   index: -1
 UnitIcons/Victor
+  rotate: false
+  xy: 1142, 829
+  size: 168, 151
+  orig: 168, 151
+  offset: 0, 0
+  index: -1
+BuildingIcons/Victor
   rotate: false
   xy: 1142, 829
   size: 168, 151

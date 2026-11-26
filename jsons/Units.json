@@ -6,7 +6,8 @@
 		{
 		"name": "Hazmat Worker",
 		"unitType": "Civilian",
-		/* "upgradesTo": "Mr. Handy", */
+		"upgradesTo": "Protectron",
+		"obsoleteTech": "Civilian Robots",
 		"requiredTech": "Hazmat Suit",
 		"movement": 2,
 		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
@@ -25,6 +26,8 @@
 	{
 		"name": "Scout",
 		"unitType": "Scout",
+		"upgradesTo": "Eyebot",
+		"obsoleteTech": "Scout Robots",
 		"movement": 2,
 		"strength": 5,
 		"cost": 25,
@@ -100,6 +103,8 @@
 		{
 		"name": "Sledgehammer",
 		"unitType": "Scrapper",
+		"upgradesTo": "Assaultron",
+		"obsoleteTech": "Military Robots",
 		"movement": 2,
 		"strength": 12,
 		"cost": 80,
@@ -113,11 +118,12 @@
 {
 		"name": "Gunslinger",
 		"unitType": "Ballistic",
+		"upgradesTo": "Sentry Bot",
+		"obsoleteTech": "Military Robots",
 		"movement": 2,
 		"strength": 7,
 		"rangedStrength": 10,
 		"requiredTech": "Ballistic Weaponry",
-		"cost": 80,
 		"requiredResource": "Hunting Rifle",
 		"attackSound": "shot",
         "civilopediaText": [
@@ -300,31 +306,61 @@
 	// ROBOTS
 
 			{
+		"name": "Protectron",
+		"unitType": "Civilian",
+		"requiredTech": "Civilian Robots",
+		"movement": 3,
+		"uniques": ["Can build [Land] improvements on tiles", "Can build [all] improvements at a [+50]% rate", "Automation is a primary action"],
+		"cost": 140
+	},
+				{
 		"name": "Mr. Handy",
-		"unitType": "Robot",
-		"uniqueTo":"New Vegas",
-		"replaces": "Hazmat Worker",
-		"strength": 5,
-		"rangedStrength": 8,
+		"unitType": "Civilian",
+		"requiredTech": "Civilian Robots",
 		"movement": 4,
-		"uniques": ["Can build [Land] improvements on tiles", "Can build [all] improvements at a [+100]% rate", "Automation is a primary action"],
-		"cost": 70
+		"uniques": ["Can build [Land] improvements on tiles", 
+		"Can build [all] improvements at a [+100]% rate", 
+		"Only available <if [Mr. Handy Factory] is constructed>",
+		"Automation is a primary action"],
+		"cost": 180
+	},
+					{
+		"name": "Mr. Farmhandy",
+		"unitType": "Civilian",
+		"requiredTech": "Civilian Robots",
+		"movement": 4,
+		"uniques": ["Can build [Plantation] improvements on tiles", 
+		"Can build [all] improvements at a [+1000]% rate", 
+		"Only available <if [Mr. Handy Factory] is constructed>",
+		"Automation is a primary action"],
+		"cost": 180
+	},
+						{
+		"name": "Mr. Gutst",
+		"unitType": "Robot",
+		"requiredTech": "Civilian Robots",
+		"movement": 4,
+		"strength": 10,
+		"rangedStrength": 15,
+		"uniques": [
+		"Only available <if [Mr. Handy Factory] is constructed>",
+		"Automation is a primary action"],
+		"promotions": ["Blitz"],
+		"cost": 140
 	},
 
 				{
 		"name": "Victor",
 		"unitType": "Robot",
-		"uniqueTo": "New Vegas",
-		"replaces": "Scout",
 		"movement": 3,
 		"strength": 10,
 		"rangedStrength": 10,
 		"cost": 50,
-		"uniques": ["Ignores terrain cost"],
+		"uniques": ["Ignores terrain cost", "Unbuildable"],
 		"promotions": ["Sentry"],
 		"attackSound": "tankshot",
         "civilopediaText": [
-			{"text": "Heyo, partner!"}
+			{"text": "Hey, partner!"}
 		]
 	},
 
@@ -341,6 +377,47 @@
         "civilopediaText": [
 			{"text": "The sheriff of Primm!"}
 		]
+	},
+
+					{
+		"name": "Eyebot",
+		"unitType": "Robot",
+		"strength": 8,
+		"rangedStrength": 5,
+		"movement": 4,
+		"uniques": ["Ignores terrain cost"],
+		"promotions": ["Sentry"],
+		"attackSound": "shot"
+	},
+						{
+		"name": "ED-E",
+		"unitType": "Robot",
+		"strength": 12,
+		"rangedStrength": 20,
+		"movement": 4,
+		"uniques": ["Ignores terrain cost", "[+1] Sight", "Unbuildable"],
+		"promotions": ["Sentry", "Extended Range"],
+		"attackSound": "shot"
+	},
+
+								{
+		"name": "Assaultron",
+		"unitType": "Robot",
+		"requiredTech": "Military Robots",
+		"moviment": 4,
+		"strength": 15,
+		"uniques": [],
+		"attackSound": "tankshot"
+	},
+									{
+		"name": "Sentry Bot",
+		"unitType": "Robot",
+		"requiredTech": "Military Robots",
+		"moviment": 2,
+		"strength": 10,
+		"rangedStrength": 15,
+		"uniques": [],
+		"attackSound": "tankshot"
 	},
 
 	// UNIQUE UNITS
@@ -382,7 +459,7 @@
 	// BROTHERHOOD
 
 			{
-		"name": "Paladin",
+		"name": "Shielder",
 		"unitType": "Scrapper",
 		"uniqueTo": "Brotherhood of Steel",
 		"replaces": "Sledgehammer",
@@ -447,5 +524,21 @@
 		"uniques": ["[+175] HP when healing", "Withdraws before melee combat <with [50]% chance>", "[-200]% Strength <vs cities> <when attacking>", "[+100]% Strength <vs [Power Armor] units> <when attacking>", "No movement cost to pillage", "Unbuildable"],
 		"promotions": ["Sentry", "Extended Range", "Blitz", "Ghoul"],
 		"attackSound": "shot"
-	}
+	},
+
+	// New Vegas
+
+								{
+		"name": "Securitron",
+		"unitType": "Robot",
+		"uniqueTo": "New Vegas",
+		"replaces": "Survivor",
+		"moviment": 2,
+		"strength": 8,
+		"rangedStrength": 8,
+		"uniques": ["[+100]% Strength <upon discovering [Military Robots] technology>", 
+					"[+2] Movement <upon discovering [Ballistic Weaponry] technology>"
+				],
+		"attackSound": "tankshot"
+	},
 ]

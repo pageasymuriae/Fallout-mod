@@ -299,6 +299,39 @@
 "[+1 Happiness, +1 Food, +1 Production] per [4] population [in this city]"
     ]
 },
+
+// Recivilization
+	{
+    "name": "Vikki and Vance Casino",
+    "requiredTech": "Civilian Robots",
+	"isWonder": true,
+	"happiness": 4,
+	"percentStatBonus": {"gold": 10, "culture": 10},
+    "uniques": ["Free [Primm Slim] appears"]
+},
+
+	{
+    "name": "Mr. Handy Factory",
+    "requiredTech": "Civilian Robots",
+	"isWonder": true,
+	"percentStatBonus": {"production": 10, "gold": 10},
+    "uniques": ["Unlocks construction of Mr.Handy and it's variants"]
+},
+	{
+    "name": "Victor",
+    "requiredTech": "Scout Robots",
+	"happiness": 4,
+	"isWonder": true,
+    "uniques": ["Free [Victor] appears"]
+},
+	{
+    "name": "ED-E",
+    "requiredTech": "Scout Robots",
+	"happiness": 4,
+	"isWonder": true,
+    "uniques": ["Free [ED-E] appears"]
+},
+// "Only available <if [Factory] is constructed>", 
 	// Culture buildings
 
 	// Survivalism
@@ -525,7 +558,7 @@
 		"Only available <after adopting [Conscription]>",
 		"Only available <if [Barracks] is constructed in all [non-[Puppeted]] cities>",
 		"Instantly gain [2] [Fusion Core]",
-		"Free [Paladin] appears"
+		"Free [Shielder] appears"
     ]
 },
 	{
