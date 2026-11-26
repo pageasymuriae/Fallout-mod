@@ -420,45 +420,62 @@
         ],
         "policies": [
             {
-                "name": "Collective Ownership",
+                "name": "Proletarian Revolution",
                 "uniques": [
-                    "[+1 Production] [in all cities]"
-                ],
-                "row": 1,
-                "column": 1
-            },
-            {
-                "name": "Planned Economy",
-                "uniques": [
-                    "[+15]% Production when constructing [All] buildings [in all cities]"
+                    "[-1] population [in all cities]",
+                    "[-10]% [Gold] [in all cities] <for [10] turns>"
                 ],
                 "row": 1,
                 "column": 3
             },
-            {
-                "name": "Universal Provision",
-                "requires": ["Collective Ownership", "Planned Economy"],
+                        {
+                "name": "Nationalization",
+                "requires": ["Proletarian Revolution"],
                 "uniques": [
-                    "[+1 Happiness] [in all cities]",
-                    "[+10]% [Food] [in all cities]"
+                    "[+50]% [Strategic] resource production",
+                    "Provides the cheapest [Production] building in your first [4] cities for free",
+                    "Provides the cheapest [Science] building in your first [4] cities for free"
                 ],
                 "row": 2,
-                "column": 2
+                "column": 1
+            },
+                                    {
+                "name": "Land Reform",
+                "requires": ["Proletarian Revolution"],
+                "uniques": [
+                    "[+2 Culture, +1 Food, +1 Happiness, -2 Gold] from [Plantation] tiles [in all cities]"
+                ],
+                "row": 2,
+                "column": 5
             },
             {
-                "name": "Scientific Cooperation",
-                "requires": ["Planned Economy"],
+                "name": "Planned Economy",
+                "requires": ["Nationalization"],
                 "uniques": [
-                    "[+15]% [Science] [in all cities]"
+                    "[+25]% Production when constructing [All] buildings [in all cities]",
+                    "Provides the cheapest [Food] building in your first [4] cities for free",
+                    "Provides the cheapest [Culture] building in your first [4] cities for free",
+                    "Provides the cheapest [Gold] building in your first [4] cities for free"
                 ],
-                "row": 2,
-                "column": 4
+                "row": 3,
+                "column": 1
+            },
+                                                {
+                "name": "Collectivization",
+                "requires": ["Land Reform"],
+                "uniques": [
+                    "[+1 Happiness] from every [Food Storage]",
+                    "[10]% Food is carried over after population increases [in all cities]",
+                    "[+10]% growth [in all cities]"
+                ],
+                "row": 3,
+                "column": 5
             },
             {
                 "name": "Communism Complete",
                 "uniques": [
-                    "[+15]% [Production] [in all cities]",
-                    "[+10]% [Food] [in all cities]"
+                    "[+50]% Great Person generation [in all cities]",
+                    "[+1 Happiness] [in all cities]"
                 ]
             }
         ]

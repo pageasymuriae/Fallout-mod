@@ -221,13 +221,16 @@
     "hateHello": "你他妈现在又想干嘛?",
         "outerColor": [255, 0, 0],
         "innerColor": [255, 255, 0],
-		"uniques": [
-            "Starts with [Communism] adopted",
-            "[-50]% enemy spy effectiveness [in all cities]",
-            "Gain an extra spy",
-            "New spies start with [5] level(s)"
-		],
-        "cities": ["The Strip", "Freeside", "Westside"]
+"uniques": [
+    "Starts with [Communism] adopted",
+    "Starts with [Proletarian Revolution] adopted",
+    "Starts with [Nationalization] adopted",
+    "[+50]% Culture cost of adopting new Policies <upon adopting [Survivalism Complete]>",
+    "[-25]% enemy spy effectiveness [in all cities]",
+    "Gain an extra spy <upon adopting [Volunteers]>",
+    "New spies start with [2] level(s)"
+],
+        "cities": ["Mama Dolce's", "Arlington", "KT8", "Taft", "New Beijing", "New Xian", "New Changdow", "New Qingdao", "New Nanjing", "New Xangai", "New Hangzhou", "New Hong Kong"]
     },
 
 // City-states
