@@ -338,17 +338,6 @@
 		"Automation is a primary action"],
 		"cost": 180
 	},
-					{
-		"name": "Mr. Farmhandy",
-		"unitType": "Civilian",
-		"requiredTech": "Civilian Robots",
-		"movement": 4,
-		"uniques": ["Can build [Plantation] improvements on tiles", 
-		"Can build [all] improvements at a [+1000]% rate", 
-		"Only available <if [Mr. Handy Factory] is constructed>",
-		"Automation is a primary action"],
-		"cost": 180
-	},
 						{
 		"name": "Mr. Gutsy",
 		"unitType": "Robot",
