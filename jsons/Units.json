@@ -396,6 +396,7 @@
 		"unitType": "Robot",
 		"strength": 12,
 		"rangedStrength": 20,
+		"requiredTech": "Scout Robots",
 		"movement": 4,
 		"uniques": ["Ignores terrain cost", "[+1] Sight", "Unbuildable"],
 		"promotions": ["Sentry", "Extended Range"],
@@ -537,11 +538,12 @@
 		"unitType": "Robot",
 		"uniqueTo": "New Vegas",
 		"replaces": "Survivor",
-		"moviment": 2,
+		"cost": 60,
+		"movement": 2,
 		"strength": 8,
 		"rangedStrength": 8,
-		"uniques": ["[+100]% Strength <upon discovering [Military Robots] technology>", 
-					"[+2] Movement <upon discovering [Ballistic Weaponry] technology>"
+		"uniques": ["[+100]% Strength <upon discovering [Military Robots] technology>",
+					"[+1] Movement <upon discovering [Ballistic Weaponry] technology>"
 				],
 		"attackSound": "tankshot"
 	},
